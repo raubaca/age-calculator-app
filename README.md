@@ -34,12 +34,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Age calculator app](./screenshot.jpg)
+![Age calculator app](./screenshot.png)
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [GitHub Pages](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/age-calculator-constrain-validation-api-oTmWNB7Wex)
+- Live Site URL: [GitHub Pages](https://raubaca.github.io/age-calculator-app/)
 
 ## My process
 

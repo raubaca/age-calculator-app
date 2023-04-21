@@ -27,6 +27,7 @@
 }
 
 html {
+  height: 100%;
   font-size: 62.5%;
 }
 
@@ -54,15 +55,15 @@ input[type='number'] {
 
 /* Main styles */
 body {
-  padding: 2rem;
   font-family: Poppins, sans-serif;
   font-weight: 700;
   background-color: var(--off-white);
   color: var(--off-black);
 }
 
-main {
-  width: min(52.5rem, 100%);
+.main {
+  margin: 2rem auto;
+  width: min(52.5rem, 95%);
   padding: 3rem 3.5rem 3.5rem;
   background: var(--white);
   border-radius: 1.5rem 1.5rem 12.5rem 1.5rem;
@@ -134,7 +135,7 @@ main {
 }
 
 /* Results */
-.result {
+.output {
   font-size: var(--font-size-result);
   font-style: italic;
   font-weight: 800;
@@ -175,7 +176,7 @@ main {
   body {
     display: grid;
     place-items: center;
-    min-height: 100vh;
+    min-height: 100%;
   }
   .form {
     grid-template-columns: repeat(4, 1fr);

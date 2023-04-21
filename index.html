@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
@@ -23,7 +24,7 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <main>
+    <main class="main">
       <form id="form" class="form" autocomplete="off" novalidate>
         <div class="field">
           <label class="field__label">Day</label>
@@ -68,20 +69,16 @@
         </div>
         <button id="submit" type="submit" class="button">Submit</button>
       </form>
-      <div class="result">
-        <p>
-          <em id="years">- -</em>
-          years
-        </p>
-        <p>
-          <em id="months">- -</em>
-          months
-        </p>
-        <p>
-          <em id="days">- -</em>
-          days
-        </p>
-      </div>
+      <h1 class="output">
+        <em id="years">- -</em>
+        years
+        <br />
+        <em id="months">- -</em>
+        months
+        <br />
+        <em id="days">- -</em>
+        days
+      </h1>
     </main>
     <script src="js/script.js"></script>
   </body>
