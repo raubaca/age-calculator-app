@@ -115,9 +115,29 @@ const calculateAge = (day, month, year) => {
     months--;
   }
 
-  outputDays.textContent = days;
-  outputMonths.textContent = months;
-  outputYears.textContent = years;
+  animateNumber(outputYears, years);
+  animateNumber(outputMonths, months);
+  animateNumber(outputDays, days);
+};
+
+// Animate nunbers
+const animateNumber = (el, num) => {
+  let count = 0;
+  el.textContent = count;
+
+  const interval = 2000 / num;
+
+  const update = () => {
+    count++;
+    if (count < num) {
+      el.textContent = count;
+      setTimeout(update, interval);
+    } else {
+      el.textContent = num;
+    }
+  };
+
+  update();
 };
 
 form.addEventListener('submit', validateForm);

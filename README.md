@@ -11,7 +11,6 @@ This is a solution to the [Age calculator app challenge on Frontend Mentor](http
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -30,7 +29,7 @@ Users should be able to:
   - [x] The date is invalid e.g. 31/04/1991 (there are 30 days in April)
 - [x] View the optimal layout for the interface depending on their device's screen size
 - [x] See hover and focus states for all interactive elements on the page
-- [ ] **Bonus**: See the age numbers animate to their final number when the form is submitted
+- [x] **Bonus**: See the age numbers animate to their final number when the form is submitted
 
 ### Screenshot
 
@@ -54,7 +53,7 @@ Users should be able to:
 
 ### What I learned
 
-In this challenge I had the opportunity to practice in more depth **CSS Grid**, I could also explore the **Constrain Validation API** to add custom messages on input errors, and test new CSS features like `:has`.
+In this challenge I had the opportunity to practice in more depth **CSS Grid**, I could also explore the **Constrain Validation API** to learn more about form validation in the browser and add custom messages to input errors, and also test new CSS features like `:has`.
 
 ```html
 <div class="field">
@@ -87,10 +86,6 @@ if (name.validity.valueMissing) {
 name.nextElementSibling.textContent = name.validationMessage;
 ```
 
-### Continued development
-
-It's pending the bonus animations, also I have thinking about implement TypeScript, test, and oninput validation disabling the submit button.
-
 ### Useful resources
 
 - [Client-side form validation](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation)
@@ -101,7 +96,6 @@ It's pending the bonus animations, also I have thinking about implement TypeScri
 
 ## Author
 
+- LinkedIn - [Raúl Barrera](https://www.linkedin.com/in/raubaca/)
+- CodePen - [Raúl Barrera](https://codepen.io/raubaca)
 - Frontend Mentor - [@raubaca](https://www.frontendmentor.io/profile/raubaca)
-- Twitter - [@raubaca](https://www.twitter.com/raubaca)
-- LinkedIn - [Raúl Barrera Castiblanco](https://www.linkedin.com/in/raubaca/)
-- CodePen - [Raúl Barrera Castiblanco](https://codepen.io/raubaca)
